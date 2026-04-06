@@ -1,0 +1,5 @@
+# This document describes how I created a data loss prevention policy in Microsoft Purview for my demo subscription, in order to detect when someone sends sensitive data via Outlook.
+## This demo shows the importance of protecting sensitive information because in the real-world, such data could be leaked either by negligance/mistake or by malicious intent, which either way poses a serious financial, reputational and compliance risk on our organization.
+## MITRE ATTACK tactic: TA0010: Exfiltration - technique: T1567: Exfiltration over web service.
+## Create the policy:
+- In Microsoft Purview Data Loss Prevention, I created a new policy on the sensitive information type "US financial data". This recognizes if US credit/debit card number or bank account numbers is included in the email. I turned the policy on for all Microsoft 365 apps, but in the test I will simulate it using Outlook.<img width="1374" height="728" alt="Screenshot 2026-04-06 at 11 29 30" src="https://github.com/user-attachments/assets/8a56bebb-6328-42fd-886d-bab3a62696bb" />
