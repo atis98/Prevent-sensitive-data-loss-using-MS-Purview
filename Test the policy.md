@@ -1,1 +1,4 @@
-# This document describes how to test the policy described in the "
+# This document describes how to test the policy described in the "Policy overview" file.
+## Steps:
+- I sent an email from my demo company account to my private account via Outlook. The message contains credit card information that is FAKE, but very similar to a real US credit card details: <img width="772" height="454" alt="Screenshot 2026-04-06 at 11 36 19" src="https://github.com/user-attachments/assets/30915883-a620-4d89-b183-5c63c1982444" />
+- As expected, I did not receive the mail on my personal account because the policy blocked it. I received an automaic email from Outlook that it could not be delivered because the content was blocked by a policy in my organization: <img width="772" height="557" alt="Screenshot 2026-04-06 at 11 38 09" src="https://github.com/user-attachments/assets/14807d9f-6596-4515-bea4-4233515eb465" />
